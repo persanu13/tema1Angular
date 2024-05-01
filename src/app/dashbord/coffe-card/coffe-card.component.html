@@ -1,0 +1,10 @@
+<div class="card-container">
+  <img [src]="coffe.image" alt="image" />
+
+  <h4>{{ coffe.name }}</h4>
+  <p>{{ coffe.description }}</p>
+  <div>
+    <h3>€{{ coffe.price }}</h3>
+    <button (click)="emitName()">Order Now</button>
+  </div>
+</div>

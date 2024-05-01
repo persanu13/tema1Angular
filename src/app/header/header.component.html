@@ -1,0 +1,10 @@
+<div class="header-container">
+  <h1>Java Junction Cafe</h1>
+
+  <div class="order">
+    <button (click)="orderNow()">Order Now</button>
+    <div *ngFor="let coffee of orderCoffee.entries()">
+      <p>{{ coffee[0] }} x{{ coffee[1] }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="dashbord-container">
+  <h2>Our Special Coffee</h2>
+  <div class="search-section">
+    <form>
+      <input [(ngModel)]="searchValue" name="searchInput" />
+      <button (click)="searchCoffe($event)">
+        Search <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </div>
+  <div class="coffee-container">
+    <app-coffe-card
+      *ngFor="let coffee of arrayOfCoffee"
+      (getNameEvent)="GetCoffeNameEvent($event)"
+      [coffe]="coffee"
+    ></app-coffe-card>
+  </div>
+  <h3 *ngIf="coffeListEmpty()">Coffee {{ searchCoffeName }} Not Found!</h3>
+</div>

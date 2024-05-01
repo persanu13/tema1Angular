@@ -1,0 +1,45 @@
+.header-container {
+  background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-delicious-coffee-shop-hand-drawn-brown-background-picture-image_993143.jpg");
+  background-size: cover; /* face ca imaginea să acopere întregul background */
+  background-position: center;
+  height: 25rem;
+  border-bottom: 2px solid #322c2b;
+}
+
+h1 {
+  padding-top: 2rem;
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #322c2b;
+  font-family: "Denk One", sans-serif;
+}
+
+.order {
+  width: 45%;
+  margin: auto;
+  margin-top: 5rem;
+  button {
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Denk One", sans-serif;
+    background-color: #efefef;
+    color: #322c2b;
+    border-radius: 1rem;
+    padding: 0.5rem 1.2rem;
+    border: 0.1rem solid #322c2b;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  button:active {
+    opacity: 1;
+  }
+
+  p {
+    color: #322c2b;
+    font-family: "Denk One", sans-serif;
+    font-size: 1rem;
+    margin: 0.6rem 0.2rem 0.4rem 0.2rem;
+  }
+}

@@ -1,0 +1,72 @@
+.dashbord-container {
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsb2ZmaWNlMV9jb2ZmZWVfc2hvcF90aGVtZWRfd2FsbHBhcGVyX2N1dGVfcGF0dGVybl93YXRlcl9kNDIwZDI0OC1mNTY4LTQ5YTItOTFiZC05Zjg5ZThkZGI1YjdfMi5qcGc.jpg");
+  background-size: 20rem;
+  background-position: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  min-height: 50vh;
+}
+
+.coffee-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: start;
+  max-width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #322c2b;
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+  margin: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: left;
+  color: #322c2b;
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+  width: 80%;
+  margin: auto;
+}
+
+.search-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  input {
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    padding: 0.2rem;
+    font-family: "Denk One", sans-serif;
+    color: #322c2b;
+    border: 1px solid #322c2b;
+    background-color: snow;
+    font-size: 0.9rem;
+  }
+  input:focus {
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    outline: 1px #322c2b solid;
+  }
+  button {
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Denk One", sans-serif;
+    background-color: #322c2b;
+    color: snow;
+    border-radius: 0rem 0.2rem 0.2rem 0rem;
+    padding: 0.2rem 0.7rem;
+    border: none;
+  }
+}

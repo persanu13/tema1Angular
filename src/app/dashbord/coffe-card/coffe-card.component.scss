@@ -1,0 +1,59 @@
+.card-container {
+  background-color: #f0ebe3;
+  width: 13rem;
+  height: 22rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #322c2b;
+  box-shadow: rgb(83, 80, 80) 2px 2px 5px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.7rem 0.2rem 0.2rem 0.2rem;
+  }
+}
+
+h4 {
+  margin: 0.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+  margin: 0.2rem;
+}
+
+h3 {
+  margin: 0.2rem;
+}
+
+img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: 0;
+  padding: 0.4rem 0.7rem;
+  background-color: #322c2b;
+  color: snow;
+  font-size: 0.75rem;
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 1;
+}
